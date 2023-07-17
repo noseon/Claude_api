@@ -177,6 +177,3 @@ def delete_conversation():
     }
     requests.request("DELETE", url, headers=headers, data=payload)
 #------------------------------------------------------------------------------
-load_cookie()
-print(send_message("diferença entre fada e gnomo?"))
-delete_conversation()
